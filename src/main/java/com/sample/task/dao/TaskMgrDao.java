@@ -106,5 +106,15 @@ public class TaskMgrDao {
         }
         return null;
     }
+
+    @Transactional
+    public List<Task> getTasksForProject(Integer projectId) {
+        List<Task> queryResult=null;
+        Query query= em.createQuery(" select t from Task t join t.project p where p.id = :projectId");
+        query.setParameter("projectId",projectId);
+        queryResult =query.getResultList();
+
+        return queryResult;
+    }
 }
 

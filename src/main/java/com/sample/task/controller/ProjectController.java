@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @RestController
-@RequestMapping("/projectkMgr")
+@RequestMapping("/projectMgr")
 public class ProjectController {
 
     @Autowired
@@ -41,7 +41,7 @@ public class ProjectController {
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/updateProject", method = RequestMethod.PUT ,produces= MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public ResponseEntity<Boolean> updateProject(@RequestBody Project project) {
+    public ResponseEntity<Boolean> updateProject(@RequestBody Project project)  throws NotFoundException  {
 
         projectMgrService.updateProject(project);
         return new ResponseEntity<>(HttpStatus.OK);
@@ -63,6 +63,8 @@ public class ProjectController {
     public ResponseEntity<List<Project>> listProjects() {
 
         List<Project> projectList=projectMgrService.listProject();
+        System.out.println("count of tasks" + projectList.get(0).getCountOfTasks());
+
         return new ResponseEntity<>(projectList,HttpStatus.OK);
     }
 

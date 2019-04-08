@@ -41,6 +41,9 @@ public class Task {
     @Transient
     private String parentTask;
 
+    @Column
+    private String status;
+
 
     @Transient
     private Integer userId;
@@ -85,7 +88,7 @@ public class Task {
         this.id = id;
     }
 
-    public void setNTask(String task) {
+    public void setTask(String task) {
         this.task = task;
     }
 
@@ -181,4 +184,13 @@ public class Task {
     public void setProjectId(Integer projectId) {
         this.projectId = projectId;
     }
+	
+	public String getStatus() {
+        return status;
+    }
+	
+	public void setStatus(String status) {
+        this.status = status;
+    }
 }
+
