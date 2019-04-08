@@ -10,10 +10,13 @@ import org.springframework.context.annotation.*;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 
-    @Configuration
+@Configuration
+    @EnableWebMvc
     @EnableTransactionManagement
+
     @ComponentScans(value = { @ComponentScan("com.sample.task.*")})
     public class AppConfig {
         @Bean

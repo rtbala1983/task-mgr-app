@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @RestController
+
 @RequestMapping("/userMgr")
 public class UserMgrController {
 
@@ -30,7 +31,7 @@ public class UserMgrController {
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
-    @RequestMapping(value = "/addUser", method = RequestMethod.POST,headers = "Accept=application/json",produces= MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/addUser", method = RequestMethod.POST)
     @ResponseBody
     public ResponseEntity<Boolean> addUser(@RequestBody User user) throws NotFoundException {
 

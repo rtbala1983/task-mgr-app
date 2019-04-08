@@ -22,19 +22,19 @@ public class TaskMgrDao {
     private EntityManager em;
     @Transactional
     public void addTask(Task task){
-        System.out.println("add task");
+
         em.merge(task);
     }
 
     @Transactional
     public void updateTask(Task task) {
-        System.out.println("update task");
+
         em.merge(task);
     }
 
     @Transactional
     public void deleteTask(String taskName){
-        System.out.println("delete task");
+
         Task task=viewTask(taskName);
         em.remove(task);
     }
@@ -43,7 +43,7 @@ public class TaskMgrDao {
     public List<Task> listTask(SearchTask searchTask){
         String queryString= "from Task a";
         Map<String,Object> queryMap=new HashMap<>();
-        System.out.println("parent task "+searchTask.getParentTask());
+
 
         if (!StringUtils.isEmpty(searchTask.getParentTask())){
             queryString =queryString + " join a.parentTaskEntity b  where b.task=:parentTask";

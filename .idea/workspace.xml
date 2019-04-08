@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61eb33bb-747d-468f-be96-a14bc2ee7357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/task/controller/ProjectMgrControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/task/controller/TasktMgrControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/task/controller/UserMgrControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/task/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/task/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/task/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/task/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/task/controller/UserMgrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/task/controller/UserMgrController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/task/dao/TaskMgrDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/task/dao/TaskMgrDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/task/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/task/domain/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/task/service/ProjectMgrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/task/service/ProjectMgrService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-mgr.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,41 +21,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.12.RELEASE/spring-web-5.0.12.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/UserMgrController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="246" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="102">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/domain/Project.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sample/task/controller/UserMgrControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+            <state relative-caret-position="292">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
-                <element signature="e#2089#2090#0" expanded="true" />
-                <element signature="e#2119#2120#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-                <element signature="e#2303#2304#0" expanded="true" />
-                <element signature="e#2337#2338#0" expanded="true" />
-                <element signature="e#2690#2691#0" expanded="true" />
-                <element signature="e#2725#2726#0" expanded="true" />
-                <element signature="e#2782#2783#0" expanded="true" />
-                <element signature="e#2830#2831#0" expanded="true" />
-                <element signature="e#2879#2880#0" expanded="true" />
-                <element signature="e#2923#2924#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sample/task/controller/ProjectMgrControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sample/task/controller/TasktMgrControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1811#1812#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/TaskMgrController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="45" column="63" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -63,26 +84,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/TaskMgrService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/UserMgrService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/ProjectMgrService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state relative-caret-position="243">
+              <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+              <folding>
+                <element signature="e#2578#2579#0" expanded="true" />
+                <element signature="e#2632#2633#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/ProjectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="125">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -99,17 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/dao/TaskMgrDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/domain/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="40">
+              <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -150,7 +148,15 @@
       <find>list</find>
       <find>mgrId</find>
       <find>@Post</find>
+      <find>/userMgr/addUser</find>
+      <find>User</find>
+      <find>project</find>
+      <find>system.</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Project</replace>
+      <replace>task</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/assignment/service/ServiceExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/assignment/controller/RestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/assignment/controller/RestControllerEducation.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/assignment/domain/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/assignment/domain/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/assignment/exception/NotFoundException.java" />
@@ -189,8 +194,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sample/task/domain/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/task/domain/Project.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/task/service/ProjectMgrService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/task/controller/UserMgrController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/task/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/task/config/ParseDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/task/controller/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/task/dao/TaskMgrDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sample/task/controller/TasktMgrControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sample/task/controller/ProjectMgrControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sample/task/controller/UserMgrControllerTest.java" />
       </list>
     </option>
   </component>
@@ -205,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,7 +258,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task-mgr-final-service" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +267,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task-mgr-final-service" type="b2602c69:ProjectViewProjectNode" />
@@ -272,14 +283,42 @@
               <item name="task-mgr-final-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-mgr-final-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-mgr-final-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-mgr-final-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-mgr-final-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-mgr-final-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-mgr-final-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-mgr-final-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-mgr-final-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,6 +336,7 @@
       <recent name="C:\Users\USER\IdeaProjects\Samplemvc\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sample.task.controller" />
       <recent name="com.assignment.controller" />
       <recent name="com.assignment.dao" />
       <recent name="com.assignment.service" />
@@ -319,7 +359,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.sample-mvc [clean]">
+  <component name="RunManager" selected="JUnit.TasktMgrControllerTest">
+    <configuration name="ProjectMgrControllerTest.testProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-mgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.task.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.task.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.task.controller.ProjectMgrControllerTest" />
+      <option name="METHOD_NAME" value="testProject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasktMgrControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-mgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.task.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.task.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.task.controller.TasktMgrControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasktMgrControllerTest.testTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-mgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.task.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.task.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.task.controller.TasktMgrControllerTest" />
+      <option name="METHOD_NAME" value="testTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMgrControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-mgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.task.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.task.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.task.controller.UserMgrControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMgrControllerTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task-mgr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.task.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.task.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.task.controller.UserMgrControllerTest" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sample-mvc [clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -372,9 +490,23 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserMgrControllerTest" />
+      <item itemvalue="JUnit.ProjectMgrControllerTest.testProject" />
       <item itemvalue="Maven.sample-mvc [clean,install]" />
       <item itemvalue="Maven.sample-mvc [clean]" />
+      <item itemvalue="JUnit.TasktMgrControllerTest.testTask" />
+      <item itemvalue="JUnit.UserMgrControllerTest.testUser" />
+      <item itemvalue="JUnit.TasktMgrControllerTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TasktMgrControllerTest" />
+        <item itemvalue="JUnit.ProjectMgrControllerTest.testProject" />
+        <item itemvalue="JUnit.UserMgrControllerTest" />
+        <item itemvalue="JUnit.UserMgrControllerTest.testUser" />
+        <item itemvalue="JUnit.TasktMgrControllerTest.testTask" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -389,10 +521,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProjectMgrControllerTest_testProject - 2019.04.08 at 13h 30m 26s.xml">
+      <configuration name="ProjectMgrControllerTest.testProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TasktMgrControllerTest_testTask - 2019.04.08 at 13h 38m 06s.xml">
+      <configuration name="TasktMgrControllerTest.testTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TasktMgrControllerTest_testTask - 2019.04.08 at 13h 41m 24s.xml">
+      <configuration name="TasktMgrControllerTest.testTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TasktMgrControllerTest_testTask - 2019.04.08 at 13h 46m 24s.xml">
+      <configuration name="TasktMgrControllerTest.testTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMgrControllerTest_testUser - 2019.04.08 at 13h 52m 10s.xml">
+      <configuration name="UserMgrControllerTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMgrControllerTest_testUser - 2019.04.08 at 13h 54m 35s.xml">
+      <configuration name="UserMgrControllerTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMgrControllerTest - 2019.04.08 at 13h 55m 54s.xml">
+      <configuration name="UserMgrControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectMgrControllerTest_testProject - 2019.04.08 at 13h 58m 36s.xml">
+      <configuration name="ProjectMgrControllerTest.testProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectMgrControllerTest_testProject - 2019.04.08 at 14h 00m 07s.xml">
+      <configuration name="ProjectMgrControllerTest.testProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TasktMgrControllerTest - 2019.04.08 at 14h 02m 05s.xml">
+      <configuration name="TasktMgrControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27142859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2887755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +566,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34477124" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,7 +574,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,10 +614,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/src/main/java/com/assignment/domain/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ViewStudent.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AddStudent.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ViewSubject.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/AddSubject.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/captureSubject.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -554,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -577,8 +731,73 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/assignment/dao/DataManagementDao.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.12.RELEASE/spring-web-5.0.12.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="3621">
           <caret line="246" selection-start-line="246" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/UserMgrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/ProjectMgrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/domain/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/config/JacksonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/config/ParseDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/domain/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -598,65 +817,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/TaskMgrService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/UserMgrService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/service/ProjectMgrService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/domain/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="243">
+          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+          <folding>
+            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="e#2632#2633#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/dao/TaskMgrDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        <state relative-caret-position="40">
+          <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/domain/Project.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/ProjectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+        <state relative-caret-position="125">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sample/task/controller/TasktMgrControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
           <folding>
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2337#2338#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2725#2726#0" expanded="true" />
-            <element signature="e#2782#2783#0" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-            <element signature="e#2879#2880#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/TaskMgrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="45" column="63" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sample/task/controller/ProjectMgrControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/task/controller/UserMgrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sample/task/controller/UserMgrControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

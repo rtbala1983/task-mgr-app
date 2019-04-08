@@ -63,7 +63,7 @@ public class ProjectController {
     public ResponseEntity<List<Project>> listProjects() {
 
         List<Project> projectList=projectMgrService.listProject();
-        System.out.println("count of tasks" + projectList.get(0).getCountOfTasks());
+
 
         return new ResponseEntity<>(projectList,HttpStatus.OK);
     }
