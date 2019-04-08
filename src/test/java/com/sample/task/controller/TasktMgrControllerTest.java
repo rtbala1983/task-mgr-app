@@ -59,7 +59,7 @@ public class TasktMgrControllerTest {
         task.setEndDate(LocalDateTime.now());
         task.setPriority("15");
 
-
+        mockMvc.perform(options("/taskMgr/addTask")).andExpect(status().isOk());
 
         RequestBuilder requestBuilder= MockMvcRequestBuilders.post("/taskMgr/addTask")
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
@@ -89,6 +89,7 @@ public class TasktMgrControllerTest {
         Task taskRes =taskList.stream().filter(taskVar -> taskVar.getTask().equals(tasktSet)).findFirst().get();
         assertEquals(tasktSet,taskRes.getTask());
         taskRes.setPriority("20");
+        taskRes.setParentTask("task_root");
         mockMvc.perform(put("/taskMgr/updateTask")
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
                 .content(new ObjectMapper().writeValueAsString(taskRes)))

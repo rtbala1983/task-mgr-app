@@ -60,7 +60,7 @@ public class ProjectMgrControllerTest {
         project.setEndDate(LocalDateTime.now());
         project.setPriority("15");
 
-
+        mockMvc.perform(options("/projectMgr/addProject")).andExpect(status().isOk());
 
         RequestBuilder requestBuilder= MockMvcRequestBuilders.post("/projectMgr/addProject")
                 .contentType(MediaType.APPLICATION_JSON_VALUE)

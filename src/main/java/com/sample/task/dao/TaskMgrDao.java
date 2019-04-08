@@ -44,7 +44,7 @@ public class TaskMgrDao {
         String queryString= "from Task a";
         Map<String,Object> queryMap=new HashMap<>();
 
-
+        /*
         if (!StringUtils.isEmpty(searchTask.getParentTask())){
             queryString =queryString + " join a.parentTaskEntity b  where b.task=:parentTask";
             queryMap.put("parentTask",searchTask.getParentTask());
@@ -73,7 +73,7 @@ public class TaskMgrDao {
             queryString=appendQuery(queryString,"endDate<=:endDate");
             queryMap.put("endDate",searchTask.getEndDate());
         }
-
+*/
         Query query= em.createQuery(queryString);
         for (Map.Entry<String,Object> entryParam: queryMap.entrySet()){
             query.setParameter(entryParam.getKey(),entryParam.getValue());
@@ -84,7 +84,7 @@ public class TaskMgrDao {
 
     }
 
-    private String appendQuery(String queryString,String appendQuery) {
+  /*  private String appendQuery(String queryString,String appendQuery) {
         if (queryString.contains("where")){
             queryString=queryString + " and " + appendQuery;
         }
@@ -93,7 +93,7 @@ public class TaskMgrDao {
         }
         return queryString;
 
-    }
+    }*/
 
     @Transactional
     public Task viewTask(String task) {

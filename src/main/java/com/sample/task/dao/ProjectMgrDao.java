@@ -45,16 +45,6 @@ public class ProjectMgrDao {
 
     }
 
-    private String appendQuery(String queryString,String appendQuery) {
-        if (queryString.contains("where")){
-            queryString=queryString + " and " + appendQuery;
-        }
-        else {
-            queryString=queryString + " where " + appendQuery;
-        }
-        return queryString;
-
-    }
 
     @Transactional
     public Project viewProject(Integer projectId) {

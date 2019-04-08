@@ -59,7 +59,7 @@ public class UserMgrControllerTest {
         user.setFirstName(firstNameSet);
         user.setLastName("LastName");
 
-
+        mockMvc.perform(options("/userMgr/addUser")).andExpect(status().isOk());
         user.setEmployeeId("Employeeid");
         Gson gson = new Gson();
         gson.toJson(user);
