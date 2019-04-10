@@ -16,10 +16,10 @@ public class UserMgrService {
 
 
     @Transactional
-    public void addUser(User user) throws  NotFoundException {
+    public User addUser(User user) throws  NotFoundException {
 
 
-        userMgrDao.addUser(user);
+         return userMgrDao.addUser(user);
     }
 
     @Transactional

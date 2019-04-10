@@ -17,9 +17,11 @@ public class UserMgrDao {
     @PersistenceContext
     private EntityManager em;
     @Transactional
-    public void addUser(User user){
+    public User addUser(User user){
 
-        em.merge(user);
+        User userUpdated=em.merge(user);
+        return userUpdated;
+
     }
 
     @Transactional

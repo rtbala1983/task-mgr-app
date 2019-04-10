@@ -33,10 +33,10 @@ public class UserMgrController {
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/addUser", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<Boolean> addUser(@RequestBody User user) throws NotFoundException {
+    public ResponseEntity<Integer> addUser(@RequestBody User user) throws NotFoundException {
 
-        userMgrService.addUser(user);
-        return new ResponseEntity<Boolean>(true,HttpStatus.OK);
+        User updatedUser=userMgrService.addUser(user);
+        return new ResponseEntity<Integer>(updatedUser.getId(),HttpStatus.OK);
     }
 
 
