@@ -1,0 +1,40 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.8.RELEASE)
+
+2019-09-19 17:44:05.397  INFO 1656 --- [           main] c.f.t.t.TaskMgrServiceApplication        : Starting TaskMgrServiceApplication v0.0.1-SNAPSHOT on WXGCC2UA34613CS with PID 1656 (C:\bala\fsd\Assignment\task-mgr-service\target\task-mgr-service-0.0.1-SNAPSHOT.war started by gh0thia in C:\bala\fsd\Assignment\task-mgr-service)
+2019-09-19 17:44:05.402  INFO 1656 --- [           main] c.f.t.t.TaskMgrServiceApplication        : No active profile set, falling back to default profiles: default
+2019-09-19 17:44:06.395  INFO 1656 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-19 17:44:06.431  INFO 1656 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-09-19 17:44:06.916  INFO 1656 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57e0b796] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-19 17:44:07.674  INFO 1656 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8094 (http)
+2019-09-19 17:44:07.719  INFO 1656 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-19 17:44:07.719  INFO 1656 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-19 17:44:10.058  INFO 1656 --- [           main] o.a.c.c.C.[.[.[/restservicesfsdfinal]    : Initializing Spring embedded WebApplicationContext
+2019-09-19 17:44:10.058  INFO 1656 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4587 ms
+2019-09-19 17:44:10.338  INFO 1656 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-19 17:44:10.809  INFO 1656 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-19 17:44:10.885  INFO 1656 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-19 17:44:11.013  INFO 1656 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-19 17:44:11.015  INFO 1656 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-19 17:44:11.241  INFO 1656 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-19 17:44:11.679  INFO 1656 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-09-19 17:44:12.104  INFO 1656 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-19 17:44:12.508  INFO 1656 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-19 17:44:12.618  WARN 1656 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-19 17:44:13.152  INFO 1656 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8094 (http) with context path '/restservicesfsdfinal'
+2019-09-19 17:44:13.158  INFO 1656 --- [           main] c.f.t.t.TaskMgrServiceApplication        : Started TaskMgrServiceApplication in 8.387 seconds (JVM running for 9.164)
+2019-09-19 17:45:34.403  INFO 1656 --- [nio-8094-exec-2] o.a.c.c.C.[.[.[/restservicesfsdfinal]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-19 17:45:34.403  INFO 1656 --- [nio-8094-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-19 17:45:34.414  INFO 1656 --- [nio-8094-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-09-19 17:46:14.783  INFO 1656 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-19 17:46:14.783  INFO 1656 --- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-19 17:46:14.786  INFO 1656 --- [       Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-19 17:46:14.807  INFO 1656 --- [       Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
